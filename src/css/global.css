@@ -1,0 +1,27 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --p1: #9a9da0;
+  --p2: #343a40;
+  --p3: #ebffed;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: relative;
+}
+/* 
+body::-webkit-scrollbar{
+  display: none;
+} */
+

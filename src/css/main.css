@@ -1,0 +1,16 @@
+main {
+  height: 85vh;
+  width: 100vw;
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+main::-webkit-scrollbar{
+  display: none;
+}
+
+main section {
+  padding: 0 2rem;
+  min-height: 100%;
+}
